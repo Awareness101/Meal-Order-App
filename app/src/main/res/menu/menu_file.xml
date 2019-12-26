@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/home"
+    android:title="Home"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/create"
+        android:title="Create"
+        app:showAsAction="never" >
+
+        <menu>
+            <item
+                android:id="@+id/createItem"
+                android:title="Item" />
+            <item
+                android:id="@+id/createCombo"
+                android:title="Combo" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/list"
+        android:title="List"
+        app:showAsAction="never" >
+
+        <menu>
+            <item
+                android:id="@+id/listItem"
+                android:title="Item" />
+            <item
+                android:id="@+id/listCombo"
+                android:title="Combo" />
+            <item
+                android:id="@+id/listPurchase"
+                android:title="Purchase" />
+
+        </menu>
+    </item>
+
+</menu>
